@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Todo from './TodoList/Todo'
+import Todo from './component/todo'
+import './style/todo.css'
 
 ReactDOM.render(
   <Todo />,

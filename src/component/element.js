@@ -15,7 +15,7 @@ class Element extends React.Component {
       <li>
         <input type="checkbox" checked={this.props.val.status === 'done'} onChange={this.check}></input>
         <span contentEditable={true} suppressContentEditableWarning={true} onBlur={this.change} >{this.props.val.content}</span>
-        <button onClick={this.delete}>delete</button>
+        <button onClick={this.delete}>{this.props.val.status==='delete'?'remove':'delete'}</button>
       </li>
     )
   }

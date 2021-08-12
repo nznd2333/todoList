@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Submit extends React.Component {
+class Form extends React.Component {
     constructor(props) {
       super(props);
       this.handleSubmit = props.submit;
@@ -28,4 +28,4 @@ class Submit extends React.Component {
     }
   }
 
-export default Submit;
+export default Form;

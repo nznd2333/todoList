@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Choose extends React.Component {
+class DropDown extends React.Component {
     render() {
       return (
         <select onChange={this.props.choose}>
@@ -12,4 +12,4 @@ class Choose extends React.Component {
     }
   }
 
-  export default Choose;
+  export default DropDown;
